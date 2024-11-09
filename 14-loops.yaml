@@ -6,8 +6,6 @@
     ansible.builtin.package:
       name: "{{item}}"
       state: present
-    ansible.builtin.debug:
-      msg: "HELLO {{item}}"
     loop: 
     - git
     - mysql
