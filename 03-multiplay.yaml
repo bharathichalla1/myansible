@@ -8,6 +8,6 @@
 - name: PLAY-2  
   hosts: localhost
   tasks:
-  - name: PLAY-1 and TASK-2
+  - name: PLAY-2 and TASK-2
     anisible.builtin.debug:
       msg: "Hello from PLAY-2 AND TASK-2"      
